@@ -1,0 +1,207 @@
+body {
+  min-width: 1150px; }
+
+#header {
+  height: 20vh;
+  margin: 0;
+  padding: 5vh 0 20px 5vh;
+  border-radius: 0;
+  background-color: #c61b1b; }
+  #header img {
+    height: 10vh;
+    width: auto; }
+  #header .menu {
+    float: right;
+    margin: 8vh 10px 0 0; }
+    #header .menu a {
+      border-right: 1px solid white;
+      padding: 15px 10px;
+      font-size: 1.3em;
+      text-decoration: none;
+      color: white; }
+    #header .menu a:last-child {
+      border-right: none; }
+    #header .menu a:hover {
+      text-decoration: underline; }
+    #header .menu #selected {
+      text-decoration: underline; }
+
+#overlay {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgba(160, 152, 152, 0.5); }
+  #overlay .signup-box {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin: 20vh auto 0 auto;
+    border-radius: 10px; }
+    #overlay .signup-box h1 {
+      display: inline;
+      margin: 15px 0 30px 25px; }
+    #overlay .signup-box button {
+      display: inline;
+      float: right;
+      margin: 15px 15px 0 0; }
+    #overlay .signup-box form {
+      margin: 10px; }
+      #overlay .signup-box form input {
+        display: block;
+        margin: 5px auto;
+        border-radius: 2px;
+        padding: 5px; }
+
+.sign-up-btn {
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  background-color: #c61b1b;
+  border: none;
+  font-size: 1.3em;
+  padding: 8px 15px; }
+  .sign-up-btn :hover {
+    background-color: #222; }
+
+.login-box {
+  background-color: #2f3030;
+  padding: 10px;
+  border-bottom-radius: 5px;
+  color: white; }
+  .login-box h2 {
+    display: inline; }
+  .login-box form {
+    display: inline-block; }
+    .login-box form input[type="email"], .login-box form input[type="password"] {
+      margin: 5px 0;
+      padding: 6px 0;
+      border-radius: 5px; }
+    .login-box form input[type="submit"] {
+      margin: 0 0 4px 10px; }
+
+.container {
+  margin-top: 40px;
+  min-height: 80vh; }
+
+.footer {
+  background-color: #2f3030;
+  color: white;
+  height: 20vh;
+  margin-top: 20px; }
+  .footer h3 {
+    text-align: center;
+    padding-top: 40px; }
+
+/* STYLE FOR INDEX.PHP SITE */
+.carousel img {
+  height: 80vh; }
+
+.events, .babybio, .practical {
+  background-color: #efefef;
+  padding: 20px; }
+
+.practical {
+  margin: 60px 0; }
+
+.events, .babybio {
+  width: 49%;
+  display: inline-block; }
+
+.babybio {
+  float: right;
+  margin-left: 1%; }
+
+/* STYLE FOR BOOKING.PHP SITE */
+.movie-1, .movie-2 {
+  width: 100%;
+  min-width: 850px;
+  border: 2px solid black;
+  margin-bottom: 10px; }
+  .movie-1 h1, .movie-2 h1 {
+    border-bottom: 2px solid black;
+    margin: 0;
+    padding-left: 20px; }
+  .movie-1 img, .movie-2 img {
+    width: 20%;
+    display: inline; }
+  .movie-1 .timeschedule-movie1, .movie-1 .timeschedule-movie2, .movie-2 .timeschedule-movie1, .movie-2 .timeschedule-movie2 {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    padding: 10px; }
+    .movie-1 .timeschedule-movie1 .day-mon, .movie-1 .timeschedule-movie1 .day-tue, .movie-1 .timeschedule-movie1 .day-wed, .movie-1 .timeschedule-movie1 .day-thu, .movie-1 .timeschedule-movie1 .day-fri, .movie-1 .timeschedule-movie1 .day-sat, .movie-1 .timeschedule-movie1 .day-sun, .movie-1 .timeschedule-movie2 .day-mon, .movie-1 .timeschedule-movie2 .day-tue, .movie-1 .timeschedule-movie2 .day-wed, .movie-1 .timeschedule-movie2 .day-thu, .movie-1 .timeschedule-movie2 .day-fri, .movie-1 .timeschedule-movie2 .day-sat, .movie-1 .timeschedule-movie2 .day-sun, .movie-2 .timeschedule-movie1 .day-mon, .movie-2 .timeschedule-movie1 .day-tue, .movie-2 .timeschedule-movie1 .day-wed, .movie-2 .timeschedule-movie1 .day-thu, .movie-2 .timeschedule-movie1 .day-fri, .movie-2 .timeschedule-movie1 .day-sat, .movie-2 .timeschedule-movie1 .day-sun, .movie-2 .timeschedule-movie2 .day-mon, .movie-2 .timeschedule-movie2 .day-tue, .movie-2 .timeschedule-movie2 .day-wed, .movie-2 .timeschedule-movie2 .day-thu, .movie-2 .timeschedule-movie2 .day-fri, .movie-2 .timeschedule-movie2 .day-sat, .movie-2 .timeschedule-movie2 .day-sun {
+      display: inline; }
+      .movie-1 .timeschedule-movie1 .day-mon a, .movie-1 .timeschedule-movie1 .day-tue a, .movie-1 .timeschedule-movie1 .day-wed a, .movie-1 .timeschedule-movie1 .day-thu a, .movie-1 .timeschedule-movie1 .day-fri a, .movie-1 .timeschedule-movie1 .day-sat a, .movie-1 .timeschedule-movie1 .day-sun a, .movie-1 .timeschedule-movie2 .day-mon a, .movie-1 .timeschedule-movie2 .day-tue a, .movie-1 .timeschedule-movie2 .day-wed a, .movie-1 .timeschedule-movie2 .day-thu a, .movie-1 .timeschedule-movie2 .day-fri a, .movie-1 .timeschedule-movie2 .day-sat a, .movie-1 .timeschedule-movie2 .day-sun a, .movie-2 .timeschedule-movie1 .day-mon a, .movie-2 .timeschedule-movie1 .day-tue a, .movie-2 .timeschedule-movie1 .day-wed a, .movie-2 .timeschedule-movie1 .day-thu a, .movie-2 .timeschedule-movie1 .day-fri a, .movie-2 .timeschedule-movie1 .day-sat a, .movie-2 .timeschedule-movie1 .day-sun a, .movie-2 .timeschedule-movie2 .day-mon a, .movie-2 .timeschedule-movie2 .day-tue a, .movie-2 .timeschedule-movie2 .day-wed a, .movie-2 .timeschedule-movie2 .day-thu a, .movie-2 .timeschedule-movie2 .day-fri a, .movie-2 .timeschedule-movie2 .day-sat a, .movie-2 .timeschedule-movie2 .day-sun a {
+        display: block;
+        padding: 5px 10px;
+        margin: 5px;
+        border-radius: 2px;
+        background-color: red;
+        text-decoration: none;
+        color: white; }
+        .movie-1 .timeschedule-movie1 .day-mon a :hover, .movie-1 .timeschedule-movie1 .day-tue a :hover, .movie-1 .timeschedule-movie1 .day-wed a :hover, .movie-1 .timeschedule-movie1 .day-thu a :hover, .movie-1 .timeschedule-movie1 .day-fri a :hover, .movie-1 .timeschedule-movie1 .day-sat a :hover, .movie-1 .timeschedule-movie1 .day-sun a :hover, .movie-1 .timeschedule-movie2 .day-mon a :hover, .movie-1 .timeschedule-movie2 .day-tue a :hover, .movie-1 .timeschedule-movie2 .day-wed a :hover, .movie-1 .timeschedule-movie2 .day-thu a :hover, .movie-1 .timeschedule-movie2 .day-fri a :hover, .movie-1 .timeschedule-movie2 .day-sat a :hover, .movie-1 .timeschedule-movie2 .day-sun a :hover, .movie-2 .timeschedule-movie1 .day-mon a :hover, .movie-2 .timeschedule-movie1 .day-tue a :hover, .movie-2 .timeschedule-movie1 .day-wed a :hover, .movie-2 .timeschedule-movie1 .day-thu a :hover, .movie-2 .timeschedule-movie1 .day-fri a :hover, .movie-2 .timeschedule-movie1 .day-sat a :hover, .movie-2 .timeschedule-movie1 .day-sun a :hover, .movie-2 .timeschedule-movie2 .day-mon a :hover, .movie-2 .timeschedule-movie2 .day-tue a :hover, .movie-2 .timeschedule-movie2 .day-wed a :hover, .movie-2 .timeschedule-movie2 .day-thu a :hover, .movie-2 .timeschedule-movie2 .day-fri a :hover, .movie-2 .timeschedule-movie2 .day-sat a :hover, .movie-2 .timeschedule-movie2 .day-sun a :hover {
+          text-decoration: underline; }
+      .movie-1 .timeschedule-movie1 .day-mon .active-movie, .movie-1 .timeschedule-movie1 .day-tue .active-movie, .movie-1 .timeschedule-movie1 .day-wed .active-movie, .movie-1 .timeschedule-movie1 .day-thu .active-movie, .movie-1 .timeschedule-movie1 .day-fri .active-movie, .movie-1 .timeschedule-movie1 .day-sat .active-movie, .movie-1 .timeschedule-movie1 .day-sun .active-movie, .movie-1 .timeschedule-movie2 .day-mon .active-movie, .movie-1 .timeschedule-movie2 .day-tue .active-movie, .movie-1 .timeschedule-movie2 .day-wed .active-movie, .movie-1 .timeschedule-movie2 .day-thu .active-movie, .movie-1 .timeschedule-movie2 .day-fri .active-movie, .movie-1 .timeschedule-movie2 .day-sat .active-movie, .movie-1 .timeschedule-movie2 .day-sun .active-movie, .movie-2 .timeschedule-movie1 .day-mon .active-movie, .movie-2 .timeschedule-movie1 .day-tue .active-movie, .movie-2 .timeschedule-movie1 .day-wed .active-movie, .movie-2 .timeschedule-movie1 .day-thu .active-movie, .movie-2 .timeschedule-movie1 .day-fri .active-movie, .movie-2 .timeschedule-movie1 .day-sat .active-movie, .movie-2 .timeschedule-movie1 .day-sun .active-movie, .movie-2 .timeschedule-movie2 .day-mon .active-movie, .movie-2 .timeschedule-movie2 .day-tue .active-movie, .movie-2 .timeschedule-movie2 .day-wed .active-movie, .movie-2 .timeschedule-movie2 .day-thu .active-movie, .movie-2 .timeschedule-movie2 .day-fri .active-movie, .movie-2 .timeschedule-movie2 .day-sat .active-movie, .movie-2 .timeschedule-movie2 .day-sun .active-movie {
+        background-color: green; }
+
+/* STYLE FOR THE SEAT PICKING SITES */
+.cinema-seating {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px auto;
+  width: 50%; }
+  .cinema-seating img {
+    width: 100%;
+    margin-bottom: 20px; }
+  .cinema-seating .cinema-overview {
+    min-width: 318px; }
+  .cinema-seating .checkbox-seats {
+    width: 60px;
+    height: 60px; }
+
+/* STYLE FOR THE RESERVATION.PHP SITE */
+.ticket-template {
+  width: 100%;
+  border: 1px solid black; }
+  .ticket-template th, .ticket-template td {
+    border: 1px solid black;
+    padding: 5px; }
+
+/* STYLE FOR THE ABOUT.PHP SITE */
+.sub-menu {
+  background-color: #c61b1b;
+  padding: 20px;
+  border-radius: 5px;
+  width: 300px;
+  margin: 0 auto; }
+  .sub-menu a {
+    display: block;
+    padding: 5px;
+    text-decoration: none;
+    color: white; }
+  .sub-menu :hover {
+    text-decoration: underline; }
+  .sub-menu .selected {
+    text-decoration: underline; }
+
+/* STYLE FOR THE TICKET-PRICES.PHP SITE */
+.table-prices {
+  width: 50%;
+  border: 2px solid black;
+  color: white;
+  background-color: #c61b1b; }
+  .table-prices th, .table-prices td {
+    border: 1px solid black;
+    padding: 10px; }
+
+/* STYLE FOR THE CONTACT.PHP SITE */
+#map {
+  height: 400px;
+  width: 50%; }
+
+/*# sourceMappingURL=style.css.map */
