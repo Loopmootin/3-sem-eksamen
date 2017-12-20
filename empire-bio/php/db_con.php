@@ -22,7 +22,7 @@ if($con->connect_error) {
 	
 //hvis der er hul igennem
 } else {
-	echo "Der er hul igennem!";
+	//echo "Der er hul igennem!";
 }
 //PHP slut tag kan undlades, hvis filen indeholder "rent" PHP
 ?>
